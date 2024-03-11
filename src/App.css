@@ -1,0 +1,103 @@
+body {
+  background-image: url('/public/mainbc.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.headerdiv {
+  display: flex;
+  flex-direction: row;
+  gap: 168px;
+  margin-left: 15px;
+}
+
+button {
+  background-color: none;
+  outline: none;
+  border: none;
+}
+
+.inputdiv {
+  display: flex;
+  width: 133px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid white;
+}
+
+input {
+  width: 114px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.headermaindiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.celsius {
+  width: 90px;
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: -5.12px;
+  margin-left: 10px;
+}
+.country {
+  width: 120px;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: right;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.imgclody {
+  width: 30px;
+}
+
+@media (width > 768px) {
+  body {
+    background-image: url('/public/desktopbc.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  .WW {
+    width: 90px;
+  }
+  .headerdiv{
+    gap: 450px;
+    margin-top: 3px;
+  }
+  .inputdiv {
+    width: 190px;
+  }
+  input {
+    width: 170px;
+    font-size: 20px;
+  }
+  .input::placeholder {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .srchicon {
+    width: 18px;
+  }
+  .headermaindiv {
+    margin-top: -29px;
+  }
+}
