@@ -8,7 +8,7 @@ body {
 .headerdiv {
   display: flex;
   flex-direction: row;
-  gap: 168px;
+  gap: 168px
   margin-left: 15px;
 }
 
